@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Zen Fusion Bistro",
+    "slug": "zen-fusion-bistro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.zenfusion.bistro"
+    },
+    "android": {
+      "package": "com.zenfusion.bistro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-speech-recognition"
+    ],
+    "scheme": "zenfusion",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
