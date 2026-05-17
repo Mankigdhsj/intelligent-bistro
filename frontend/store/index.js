@@ -119,12 +119,13 @@ export const useChatStore = create((set, get) => ({
   history: [], // For Claude API - { role, content }[]
   loading: false,
 
-  sendMessage: async (userText, cartItems, menuItems) => {
+  sendMessage: async (userText, cartItems, menuItems, isVoice = false) => {
     const userMsg = {
       id: uid(),
       role: "user",
       content: userText,
       timestamp: new Date(),
+       isVoice,
     };
 
     set((state) => ({
