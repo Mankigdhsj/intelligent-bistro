@@ -102,6 +102,6 @@ intelligent-bistro/
 ## 👤 Author
 
 Manju Bhargavi Gadiparthi 
-[manjugadiparthi@gmail.comx] | [Mankigdhsj]
+[manjugadiparthi@gmail.com] | [Mankigdhsj]
 
 
